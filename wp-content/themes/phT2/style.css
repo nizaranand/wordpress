@@ -1,0 +1,199 @@
+/*  
+	Theme Name: phT for yapb
+	Theme URI: http://pht.inhubi.com/
+	Description: Minmalist theme for <a href="http://johannes.jarolim.com/blog/wordpress/yet-another-photoblog/">Yet Another Photoblog Plugin</a>. You <b>MUST</b> deactivate "Activate automatic image rendering in general." on <a href="options-general.php?page=Yapb.class.php">Automatic Image Insertion setction of YAPB settings</a> 
+	Version: 2.0.1
+	Author: Fran Sim&oacute;
+	Author URI: http://fransimo.info/
+*/
+
+.img-cont{
+	margin: 0 auto;
+	padding: 0;
+	text-align:center;
+	/* part of this is generated in header.php */
+}
+
+
+.img-cont-thumb {    
+	padding: 2px;
+	float: left;
+	text-align:center;
+}
+
+.inside {
+	margin:0px auto 0px auto;
+}
+	
+#navigation {
+	position: relative;
+	height: 20px;
+	border-bottom: 1px solid;
+}
+
+.prev {
+	position: absolute;
+	left: 0;
+	width: 33%;
+	z-index: 2;	
+	
+	text-align: left;	
+	}
+
+.exif {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	z-index: 1;
+	}
+
+.next {
+	position: absolute;
+	right: 0;
+	width: 33%;
+	text-align: right;
+	z-index: 2;
+	}
+
+#img-title h2 {
+	float:left;
+	text-align:left;
+	margin-bottom:1px;
+	font-size: 12px;	
+}
+
+#img-title h3 {
+	float:right;
+	text-align:right;
+	margin-bottom:1px;
+}
+
+.description {
+	text-align:left;
+	margin-bottom:1px;		
+}
+
+/* div IDs */
+
+#page {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	top: 0px;
+}
+
+#content, #header, #the_content {
+	position: relative;
+	padding: 2px;
+	text-align: left;    
+}
+
+#the_content {
+	margin-top: 5px;
+}
+
+#header {
+	top: 2px;
+}
+
+
+
+/* This is from nitisha */
+
+.clearfix {
+	display:block;
+}
+
+#header ul {
+	float: right;
+	font-size: 0.9em;
+	text-align: right;
+	text-transform: lowercase;
+	letter-spacing: 0.1em;
+	height: 8px;
+}
+
+#header h1{
+	float:left;
+	text-align:left;
+        font-size:1em;
+        padding:0px;
+        height:100%;
+        font-weight:bold;
+}
+
+#header li {
+	float: left;
+	list-style-type: none;
+	display: block;
+	height: 100%;
+	text-align: right;
+}
+
+#header li a {
+	float: left;
+	height: 100%;
+	display: block;
+	padding-left: 10px ;
+	text-align: right;
+}
+
+/* End of Nitisha */
+
+
+/* html */
+
+hr {
+	height: 1px;
+    border : none; 	
+}
+	
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+}
+
+h1, h2, h3 {
+	font-family: Verdana, sans-Serif;
+	font-weight: normal;
+	font-size: 11px;
+	/* margin-top: 0;		*/
+}
+
+a {
+	text-decoration:none;
+}
+
+a img {
+	border: none;
+}
+
+#comment {
+	position: relative;
+	text-align: left;    
+}
+
+#commentform  {
+    padding: 5px;
+}
+	
+#commentform input {
+    padding: 1px;
+}
+
+#commentform textarea {
+	padding: 1px;
+}	
+	
+#sidebar{
+	float:right;	
+	width: 25%;
+}	
+#thumbs {
+	float:left;	
+	width: 75%;
+}
