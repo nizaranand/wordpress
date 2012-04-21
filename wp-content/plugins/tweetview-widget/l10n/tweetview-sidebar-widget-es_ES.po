@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: tweetview.php:28
+#@ tweetview-sidebar-widget
+msgid "Tweetview Widget"
+msgstr "Tweetview Widget"
+
+#: tweetview.php:56
+#@ tweetview-sidebar-widget
+msgid "Title"
+msgstr "Título"
+
+#: tweetview.php:62
+#@ tweetview-sidebar-widget
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: tweetview.php:63
+#@ tweetview-sidebar-widget
+msgid "Number of tweets to show"
+msgstr "Número de tweets a mostrar"
+
+#: tweetview.php:115
+#@ tweetview-sidebar-widget
+msgid "Follow"
+msgstr "Seguir"
+
+#: tweetview.php:115
+#@ tweetview-sidebar-widget
+msgid "on twitter."
+msgstr "en Twitter."
+
+#: tweetview.php:61
+#@ tweetview-sidebar-widget
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: tweetview.php:67
+#@ tweetview-sidebar-widget
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: tweetview.php:68
+#@ tweetview-sidebar-widget
+msgid "Write your CSS here ..."
+msgstr "Escribe aquí tu CSS"
+
+#: tweetview.php:72
+#@ tweetview-sidebar-widget
+msgid "Like this Plugin? Buy me a coffee."
+msgstr "¿Te gusta este plugin? Invítame a un café."
+
+#: tweetview.php:114
+#@ tweetview-sidebar-widget
+msgid "Loading tweets"
+msgstr "Cargando Tweets"
+
+#: tweetview.php:163
+#@ tweetview-sidebar-widget
+msgid "second"
+msgstr ""
+
+#: tweetview.php:164
+#@ tweetview-sidebar-widget
+msgid "seconds"
+msgstr ""
+
+#: tweetview.php:165
+#@ tweetview-sidebar-widget
+msgid "minute"
+msgstr ""
+
+#: tweetview.php:166
+#@ tweetview-sidebar-widget
+msgid "minutes"
+msgstr ""
+
+#: tweetview.php:167
+#@ tweetview-sidebar-widget
+msgid "hour"
+msgstr ""
+
+#: tweetview.php:168
+#@ tweetview-sidebar-widget
+msgid "hours"
+msgstr ""
+
+#: tweetview.php:169
+#@ tweetview-sidebar-widget
+msgid "day"
+msgstr ""
+
+#: tweetview.php:170
+#@ tweetview-sidebar-widget
+msgid "days"
+msgstr ""
+
+#: tweetview.php:171
+#@ tweetview-sidebar-widget
+msgid "time ago:"
+msgstr ""
+
+#: tweetview.php:187
+#@ tweetview-sidebar-widget
+msgid "What's new:"
+msgstr ""
+
