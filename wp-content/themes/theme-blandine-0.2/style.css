@@ -41,7 +41,7 @@ body {
   color: white;
   text-decoration: none;
   background-color: #222;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Swapping out styles: replacing '.dropdown-menu' with 'sub-menu' 

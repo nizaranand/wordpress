@@ -98,14 +98,6 @@
   *padding-top: 5px;
   *padding-bottom: 5px;
 }
-.btn-group .btn-mini.dropdown-toggle {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.btn-group .btn-large.dropdown-toggle {
-  padding-left: 12px;
-  padding-right: 12px;
-}
 
 .btn-group.open {
   // IE7's z-index only goes to the nearest positioned ancestor, which would
@@ -135,32 +127,21 @@
 .open.btn-group .caret {
   .opacity(100);
 }
-// Carets in other button sizes
-.btn-mini .caret {
-  margin-top: 5px;
-}
-.btn-small .caret {
-  margin-top: 6px;
-}
-.btn-large .caret {
-  margin-top: 6px;
-  border-left:  5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top:   5px solid @black;
-}
 
 
 // Account for other colors
 .btn-primary,
-.btn-warning,
 .btn-danger,
 .btn-info,
-.btn-success,
-.btn-inverse {
+.btn-success {
   .caret {
     border-top-color: @white;
-    border-bottom-color: @white;
     .opacity(75);
   }
+}
+
+// Small button dropdowns
+.btn-small .caret {
+  margin-top: 4px;
 }
 
