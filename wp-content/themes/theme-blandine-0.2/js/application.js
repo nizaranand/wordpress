@@ -65,6 +65,10 @@
     }
 
     // tooltip demo
+    $('.tooltip-blandine').tooltip({
+      selector: "a[rel=tooltip]"
+    })
+
     $('.tooltip-demo.well').tooltip({
       selector: "a[rel=tooltip]"
     })
