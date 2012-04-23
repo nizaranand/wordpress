@@ -2696,17 +2696,20 @@ input[type="submit"].btn.small {
   line-height: 19px;
   color: #ea8915;
   text-decoration: none;
+  font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar .nav > li > a:hover {
   background-color: transparent;
   color: #222222;
   text-decoration: none;
+  font-weight: bold;
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
   color: #222222;
   text-decoration: none;
+  font-weight: bold;
   background-color: #fcfbfd;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -3408,6 +3411,8 @@ a.thumbnail:hover {
 .accordion-heading .accordion-toggle {
   display: block;
   padding: 8px 15px;
+  color: #EA8915;
+  font-weight: bold;
 }
 .accordion-inner {
   padding: 9px 15px;
@@ -3510,21 +3515,21 @@ a.thumbnail:hover {
   color: #ffffff;
 }
 .hero-unit {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 30px;
   background-color: #f5f5f5;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 26px;
 }
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 45px;
   line-height: 1;
   letter-spacing: -1px;
 }
 .hero-unit p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
   line-height: 27px;
 }
@@ -3532,7 +3537,8 @@ body {
   background-color: #fcfbfd !important;
 }
 a {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+
 }
 .nav a,
 .navbar .brand,
@@ -3647,7 +3653,7 @@ div.subnav .nav > .active > a,
 div.subnav .nav > .active > a:hover {
   color: #ea8915;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: bold;
 }
 .btn-primary {
   background-color: #2a2a2a;
@@ -3682,6 +3688,9 @@ pre.prettyprint,
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #eeeeee;
+}
+.tooltip-blandine {
+  cursor: help;
 }
 .pull-right {
   float: right;
