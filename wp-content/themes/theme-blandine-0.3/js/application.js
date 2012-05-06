@@ -189,4 +189,14 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
 //add special class to last child in navbar
 $("#main-menu > li:last-child").addClass("last-item");
 
+$(".widget ul li a").hover(
+  function () {
+    $(this).append($("<img class='external' src='./wp-content/themes/theme-blandine-0.3/img/fleche.png'>"));
+  }, 
+  function () {
+    $(this).find("img:last").remove();
+  }
+);
+
+
 }(window.jQuery)

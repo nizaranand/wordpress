@@ -19,6 +19,7 @@ Overriding some defaults from the Bootstrap defaults to improve/fix integration 
 body {
   padding-top: 60px;
    word-spacing: -0.05em;
+   background: url("./img/double_lined.png") repeat scroll 0 0 transparent;
 }
 
 /* Changing the navbar from 'fixed' to 'relative' to accomodate the WP-admin bar 
@@ -498,4 +499,8 @@ ol.comment-list li p.meta strong {
 /*special ressouces navbar */
 .last-item a{
 color: #444 !important;
+}
+
+.external {
+  margin-left: 5px;
 }

@@ -3555,9 +3555,13 @@ h6,
 .brand,
 .navbar,
 .subnav a,
-blockquote > p {
+blockquote > p,
+footer {
   font-family: 'Georgia', sans-serif;
   color: #222222;
+}
+footer {
+  font-size: 14px;
 }
 .navbar,
 .subnav a,
