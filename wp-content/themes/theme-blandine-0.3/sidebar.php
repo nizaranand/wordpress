@@ -7,7 +7,7 @@
  * @since WP-Bootstrap 0.1
  */
 ?>
-<div class="span4">
+<div class="span3">
 	<div class="well sidebar-nav">
             <?php
     if ( function_exists('dynamic_sidebar')) dynamic_sidebar("sidebar-page");

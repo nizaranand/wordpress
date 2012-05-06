@@ -23,8 +23,13 @@ a {
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 h1, h2, h3, h4, h5, h6, .brand, .navbar, .subnav a, blockquote > p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Georgia', sans-serif;
 	color: @textColor;
+}
+
+ .navbar, .subnav a, blockquote > p {
+	/*font-family: 'League Gothic';*/
+	font-size : 16px;
 }
 
 h1, h2, h3, h4, h5, h6, .brand {
@@ -52,7 +57,7 @@ h1, h2, h3, h4, h5, h6, .brand {
 
 .navbar-inner, .navbar .dropdown-menu, div.subnav, .table-bordered, .well, .prettyprint,
 div.subnav .nav > li:first-child > a, div.subnav .nav > li:first-child > a:hover {
-	.border-radius(0);
+	/*.border-radius(0);*/
 }
 
 .navbar .nav > li > a {
@@ -138,4 +143,10 @@ code, pre, pre.prettyprint, .well, .form-actions,
 
 .tooltip-blandine{
 	cursor:help;
+	border-bottom: 1px dotted;
+	&:hover {
+		text-decoration:none;
+	}
 }
+
+

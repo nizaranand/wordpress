@@ -14,7 +14,8 @@ get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <div class="row">
   <div class="container">
-   <?php if (function_exists('bootstrapwp_breadcrumbs')) bootstrapwp_breadcrumbs(); ?>
+   
+   <?php //if (function_exists('bootstrapwp_breadcrumbs')) bootstrapwp_breadcrumbs(); ?>
    </div><!--/.container -->
    </div><!--/.row -->
    <div class="container">
@@ -23,11 +24,11 @@ get_header(); ?>
  <!-- Masthead
       ================================================== -->
       <header class="jumbotron subhead" id="overview">
-        <h1><?php the_title();?></h1>
+        <h1><?php //the_title();?></h1>
       </header>
          
         <div class="row content">
-<div class="span8">
+<div class="span9">
 
             <?php the_content();?>
 <?php endwhile; // end of the loop. ?>

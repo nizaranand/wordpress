@@ -11,6 +11,11 @@
       e.preventDefault()
     })
 
+    $('.pull-right [href^=#]').click(function (e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop: '0px'}, 300);
+    })
+
     // make code pretty
     window.prettyPrint && prettyPrint()
 
@@ -180,5 +185,8 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
     }
   }
 })
+
+//add special class to last child in navbar
+$("#main-menu > li:last-child").addClass("last-item");
 
 }(window.jQuery)

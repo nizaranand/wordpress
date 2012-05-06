@@ -7,7 +7,7 @@ Plugin URI: http://blogplay.com/plugin
 
 Description: Automatically add links on your posts, pages and RSS feed to your favorite social bookmarking sites. 
 
-Version: 4.2.6
+Version: 4.2.7
 
 Author: Blogplay
 
@@ -202,7 +202,7 @@ function sociable_reset(){
     //Delete All Metadata From The Database ?
     $wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key = '_sociableoff'");
     $sociable_options = array(
-		'version' =>'4.2.5',
+		'version' =>'4.2.7',
 
         'automatic_mode'         => 'on',
 
