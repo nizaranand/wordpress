@@ -499,8 +499,13 @@ ol.comment-list li p.meta strong {
 /*special ressouces navbar */
 .last-item a{
 color: #444 !important;
+margin-left:  200px;
 }
 
 .external {
   margin-left: 5px;
+}
+
+.sidebar-nav{
+  border-color: #EA8913;
 }
