@@ -189,7 +189,8 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
 //add special class to last child in navbar
 $("#main-menu > li:last-child").addClass("last-item");
 
-$(".widget ul li a").hover(
+//liens externes
+$(".widget ul li a.external").hover(
   function () {
     $(this).append($("<img class='external' src='./wp-content/themes/theme-blandine-0.3/img/fleche.png'>"));
   }, 
@@ -197,6 +198,15 @@ $(".widget ul li a").hover(
     $(this).find("img:last").remove();
   }
 );
+
+//sidebar effect
+var $scrollingDiv = $("#scrollingDiv");
+
+$(window).scroll(function(){      
+  $scrollingDiv
+    .stop()
+    .animate({"marginTop": ($(window).scrollTop()) + "px"}, 1000 );      
+});
 
 
 }(window.jQuery)

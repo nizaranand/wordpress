@@ -8,7 +8,7 @@
  */
 ?>
 <div class="span3">
-	<div class="well sidebar-nav">
+	<div id="scrollingDiv" class="well sidebar-nav">
             <?php
     if ( function_exists('dynamic_sidebar')) dynamic_sidebar("sidebar-page");
 ?>
