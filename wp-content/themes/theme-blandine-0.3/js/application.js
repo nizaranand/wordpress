@@ -1,7 +1,3 @@
-// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
-// IT'S ALL JUST JUNK FOR OUR DOCS!
-// ++++++++++++++++++++++++++++++++++++++++++
-
 !function ($) {
 
   $(function(){
@@ -208,5 +204,25 @@ $(window).scroll(function(){
     .animate({"marginTop": ($(window).scrollTop()) + "px"}, 1000 );      
 });
 
+//gestion des chevrons dans les accordeons
+$('#accordion2').on('shown', function () {
+  $(".accordion-body.in").parent().children().find("i").removeClass("icon-chevron-right");
+  $(".accordion-body.in").parent().children().find("i").addClass("icon-chevron-down");
+});
+
+$('#accordion2').on('hidden', function () {
+  $(".accordion-body").parent().children().find("i").removeClass("icon-chevron-down");
+  $(".accordion-body").parent().children().find("i").addClass("icon-chevron-right");
+});
+
+$('#accordion3').on('shown', function () {
+  $(".accordion-body.in").parent().children().find("i").removeClass("icon-chevron-right");
+  $(".accordion-body.in").parent().children().find("i").addClass("icon-chevron-down");
+});
+
+$('#accordion3').on('hidden', function () {
+  $(".accordion-body").parent().children().find("i").removeClass("icon-chevron-down");
+  $(".accordion-body").parent().children().find("i").addClass("icon-chevron-right");
+});
 
 }(window.jQuery)
