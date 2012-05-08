@@ -396,7 +396,7 @@ function catch_that_image() {
  function bootstrapwp_breadcrumbs() {
 
   $delimiter = '<span class="divider">/</span>';
-  $home = 'Home'; // text for the 'Home' link
+  $home = 'Accueil'; // text for the 'Home' link
   $before = '<li class="active">'; // tag before the current crumb
   $after = '</li>'; // tag after the current crumb
 

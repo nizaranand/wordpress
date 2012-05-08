@@ -8,16 +8,16 @@
  */
 ?>
 <div class="span3">
-	<div class="well sidebar-nav">
-            <?php
-    if ( function_exists('dynamic_sidebar')) dynamic_sidebar("sidebar-page");
-?>
-	</div>
 		<div class="well sidebar-nav">
             <?php
     if ( function_exists('dynamic_sidebar')) dynamic_sidebar("sidebar-posts");
 ?>
 	</div><!--/.well .sidebar-nav -->
+		<div class="well sidebar-nav">
+            <?php
+    if ( function_exists('dynamic_sidebar')) dynamic_sidebar("sidebar-page");
+?>
+	</div>
          </div><!-- /.span4 -->
           </div><!-- /.row .content -->
 

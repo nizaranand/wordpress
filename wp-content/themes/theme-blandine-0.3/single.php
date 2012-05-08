@@ -27,7 +27,7 @@ get_header(); ?>
       </header>
          
         <div class="row content">
-<div class="span8">
+<div class="span9 hero-unit-page">
    <p class="meta"><?php echo bootstrapwp_posted_on();?></p>
             <?php the_content();?>
             <?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
