@@ -2587,6 +2587,8 @@ share your posts, don't you? :) Get it now!
                 <?php wp_nonce_field('sociable-config'); ?>
 
                 <INPUT type="hidden" class="version-INPUT" id="version" name="sociable_options[version]" value="<?php echo$sociable_options["version"];?>" /> 
+                <INPUT type="hidden" id="blogplay_tags" name="sociable_options[blogplay_tags]" value="1" /> 
+
 
                 <TABLE class="Title-Box" cellspacing="0" cellpadding="0" id="Preview-Title" style="margin:0 0 0 25px">
 

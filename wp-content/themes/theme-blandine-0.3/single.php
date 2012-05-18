@@ -30,7 +30,7 @@ get_header(); ?>
 <div class="span9 hero-unit-page">
    <p class="meta"><?php echo bootstrapwp_posted_on();?></p>
             <?php the_content();?>
-            <?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
+            <?php the_tags( '<p>Tags: ', ' ', '</p>'); ?>
 <?php endwhile; // end of the loop. ?>
 <hr />
  <?php comments_template(); ?>

@@ -62,8 +62,11 @@ if (have_posts() ) ;?>
 						<?php the_excerpt();?>
 					</div><!-- /.span6 -->
 				</div><!-- /.row -->   
+				
+			            <?php the_tags( '<p>Tags: ', ' ', '</p>'); ?>
 				<hr />  
 			</div><!-- /.post_class -->
+
 		<?php endwhile; ?>
 		<?php bootstrapwp_content_nav('nav-below');?>
 
