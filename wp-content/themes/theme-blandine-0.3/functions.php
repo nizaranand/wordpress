@@ -495,5 +495,31 @@ function catch_that_image() {
 
 
 /**
+Hook to modify comment-form
+*/
+function mytheme_comment($args) { 
+  $args['author'] = '<p class="comment-form-author">' . '<label class="span2" for="author">' . __( 'Name' ) . '*</label> ' . ( $req ? '*' : '' ) .
+                '<input id="author" class="span3" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>'; 
+  $args['email'] = '<p class="comment-form-email"><label class="span2" for="email">' . __( 'Email' ) . '*</label> ' . ( $req ? '*' : '' ) .
+                '<input id="email" class="span3" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>'; 
+  $args['url'] = '<p class="comment-form-url"><label class="span2" for="url">' . __( 'Website' ) . '</label>' .
+                '<input id="url" name="url" class="span3" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>'; 
+  return $args;
+} 
+add_filter('comment_form_default_fields','mytheme_comment'); 
+
+
+function mytheme_init() {
+  add_filter('comment_form_defaults','mytheme_comments_form_defaults');
+}
+add_action('after_setup_theme','mytheme_init');
+
+function mytheme_comments_form_defaults($default) {
+  unset($default['comment_notes_after']);
+  return $default;
+}
+
+
+/**
  * This theme was built with PHP, Semantic HTML, CSS, love, and a bootstrap.
  */

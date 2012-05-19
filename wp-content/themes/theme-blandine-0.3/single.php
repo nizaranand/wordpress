@@ -22,18 +22,21 @@ get_header(); ?>
      
  <!-- Masthead
       ================================================== -->
-      <header class="jumbotron subhead" id="overview">
-        <h1><?php the_title();?></h1>
-      </header>
-         
+
         <div class="row content">
 <div class="span9 hero-unit-page">
+      <header class="jumbotron subhead" id="overview">
+        <h2><?php the_title();?></h2>
+      </header>
+         
    <p class="meta"><?php echo bootstrapwp_posted_on();?></p>
             <?php the_content();?>
             <?php the_tags( '<p>Tags: ', ' ', '</p>'); ?>
 <?php endwhile; // end of the loop. ?>
 <hr />
+<div class="well form-inline">
  <?php comments_template(); ?>
+</div>
 
  <?php bootstrapwp_content_nav('nav-below');?>
 
