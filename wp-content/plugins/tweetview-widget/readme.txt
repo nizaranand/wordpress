@@ -4,7 +4,7 @@ Donate link:
 Tags: twitter, widget, social network, sidebar
 Requires at least: 3.1
 Tested up to: 3.4
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 
 Add a widget to your sidebar to show your latest tweets.
 
@@ -25,6 +25,7 @@ A long time I searched a sidebarwidget to show my last tweets in my blog. So I f
 * German
 * Spanish (thanks to <a href="http://www.rubenas.com">Rubén Álvarez</a>)
 * French (thanks to <a href="http://creativejuiz.fr/">Geoffrey</a>)
+* Arabic (Saudi Arabia) (thanks to Hammad Alshammari)
 
 == Installation ==
 
@@ -45,6 +46,10 @@ You can use the built in installer and upgrader, or you can install the plugin m
 1. TweetView in action
 
 == Changelog ==
+
+= 1.4.3 =
+* (18.05.2012)
+* Add: Arabic (Saudi Arabia) translation. Thanks to Hammad Alshammari.
 
 = 1.4.2 =
 * (12.04.2012)

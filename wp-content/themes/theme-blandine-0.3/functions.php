@@ -249,7 +249,7 @@ function bootstrapwp_comment( $comment, $args, $depth ) {
 					<?php printf( __( '%s <span class="says">a écrit :</span>', 'bootstrap' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 				</div><!-- .comment-author .vcard -->
 				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<em><?php _e( 'Your comment is awaiting moderation.', 'bootstrap' ); ?></em>
+					<em><?php _e( 'Votre commentaire est en attende de validation.', 'bootstrap' ); ?></em>
 					<br />
 				<?php endif; ?>
 

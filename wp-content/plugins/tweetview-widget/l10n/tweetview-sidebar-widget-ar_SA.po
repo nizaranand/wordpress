@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TweetView-Widget v1.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hammad Alshammari <falcon@mail.net.sa>\n"
+"Language-Team: ABU HATIM <falcon@mail.net.sa>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:28
+msgid "Tweetview Widget"
+msgstr "القطعة الجانبية Tweetview"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:53
+msgid "Title"
+msgstr "العنوان"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:59
+msgid "Username"
+msgstr "أسم المستخدم"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:60
+msgid "Number of tweets to show"
+msgstr "عدد التغريدات المعروضة"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:112
+msgid "Follow"
+msgstr "تابع"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:112
+msgid "on twitter."
+msgstr "على تويتر"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:58
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:64
+msgid "Custom CSS"
+msgstr "تخصيص CSS"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:65
+msgid "Write your CSS here ..."
+msgstr "أكتب CSS الخاص بك هنا ..."
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:69
+msgid "Like this Plugin? Buy me a coffee."
+msgstr "قيّم هذه الإضافة؟ اشتر لي القهوة."
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:111
+msgid "Loading tweets"
+msgstr "تحميل التغريدات"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:161
+msgid "second"
+msgstr "ثوان"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:162
+msgid "seconds"
+msgstr "ثانية"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:163
+msgid "minute"
+msgstr "دقيقة"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:164
+msgid "minutes"
+msgstr "دقائق"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:165
+msgid "hour"
+msgstr "ساعة"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:166
+msgid "hours"
+msgstr "ساعات"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:167
+msgid "day"
+msgstr "يوم"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:168
+msgid "days"
+msgstr "أيام"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:169
+msgid "time ago:"
+msgstr "منذ:"
+
+#@ tweetview-sidebar-widget
+#: tweetview.php:185
+msgid "What's new:"
+msgstr "ما الجديد:"
+
