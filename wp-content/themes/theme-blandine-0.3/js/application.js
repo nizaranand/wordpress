@@ -2,6 +2,15 @@
 
   $(function(){
 
+    if (window.location.pathname.indexOf("/fr/") != -1){
+        $("#select-language").val("fr");
+    }
+    else if (window.location.pathname.indexOf("/de/") != -1){
+              $("#select-language").val("de");
+    }
+    else if (window.location.pathname.indexOf("en") != -1){
+              $("#select-language").val("en");
+    }
     // Disable certain links in docs
     $('section [href^=#]').click(function (e) {
       e.preventDefault()
@@ -188,7 +197,7 @@ $("#main-menu > li:last-child").addClass("last-item");
 //liens externes
 $(".widget ul li a.external").hover(
   function () {
-    $(this).append($("<img class='external' src='./wp-content/themes/theme-blandine-0.3/img/fleche.png'>"));
+    $(this).append($("<img class='external' src='/wordpress/wp-content/themes/theme-blandine-0.3/img/fleche.png'>"));
   }, 
   function () {
     $(this).find("img:last").remove();
@@ -224,5 +233,38 @@ $('#accordion3').on('hidden', function () {
   $(".accordion-body").parent().children().find("i").removeClass("icon-chevron-down");
   $(".accordion-body").parent().children().find("i").addClass("icon-chevron-right");
 });
+
+//style tag button
+$('a[rel="tag"]').addClass("btn btn-warning");
+
+
+//change language
+$("#select-language").change(function (){
+var oldLocale;
+if (window.location.pathname.indexOf("/fr/") != -1){
+  oldLocale = "fr";
+}
+else if (window.location.pathname.indexOf("/en/") != -1){
+  oldLocale = "en";
+}
+else if (window.location.pathname.indexOf("/de/") != -1){
+  oldLocale = "de";
+}
+else {
+    oldLocale = "fr";
+
+}
+     var host = window.location.href.split(oldLocale)[0];
+     var locale =  $("#select-language").val();
+     var query = " ";
+     if (window.location.href.split(oldLocale)[1] != null){
+        alert("non implementé");
+     }
+     else {
+        window.location.href = host+locale+query;    }
+  //window.location.href = "http://" + window.location.host + window.location.pathname + "?lang=" + $("#select-language").val();
+});
+
+
 
 }(window.jQuery)

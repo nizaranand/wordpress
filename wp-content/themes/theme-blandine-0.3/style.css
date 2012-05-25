@@ -502,3 +502,9 @@ margin-left:  20px;
 .sidebar-nav{
   border-color: #EA8913;
 }
+
+#select-language{
+  float: right;
+  margin-top: 5px;
+}  
+

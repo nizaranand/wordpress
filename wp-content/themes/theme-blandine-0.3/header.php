@@ -46,9 +46,15 @@ get_header(); ?>
           <a class="brand" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
           <?php wp_nav_menu( array( 'menu' => 'main-menu', 'container_class' => 'nav-collapse', 'menu_class' => 'nav', 'menu_id' => 'main-menu') ); ?>
           <!--ul class="nav pull-right">
-              <li><img src="/wordpress/wp-content/themes/theme-blandine/img/twitter.png">&nbsp;&nbsp;&nbsp;</li>
-              <li><img src="/wordpress/wp-content/themes/theme-blandine/img/linkedin.png"></li>
+              <li><a href="?lang=fr">FR</a></li>
+              <li><a href="?lang=de">DE</a></li>
+              <li><a href="?lang=en">EN</a></li>
             </ul-->
+            <select class="span2" id="select-language">
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="en">English</option>
+              </select>
         </div>
       </div>
     </div>

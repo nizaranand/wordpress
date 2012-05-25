@@ -54,8 +54,8 @@ add_action('wp_enqueue_scripts', 'bootstrapwp_css_loader');
        wp_enqueue_script('button', get_template_directory_uri().'/js/bootstrap-button.js', array('jquery'),'1.0', true );
        wp_enqueue_script('collapse', get_template_directory_uri().'/js/bootstrap-collapse.js', array('jquery'),'1.0', true );        
        wp_enqueue_script('carousel', get_template_directory_uri().'/js/bootstrap-carousel.js', array('jquery'),'1.0', true );    
-      wp_enqueue_script('typeahead', get_template_directory_uri().'/js/bootstrap-typeahead.js', array('jquery'),'1.0', true );
-      wp_enqueue_script('application', get_template_directory_uri().'/js/application.js', array('tooltip'),'1.0', true );
+       wp_enqueue_script('typeahead', get_template_directory_uri().'/js/bootstrap-typeahead.js', array('jquery'),'1.0', true );   
+       wp_enqueue_script('application', get_template_directory_uri().'/js/application.js', array('tooltip'),'1.0', true );
   }
 add_action('wp_enqueue_scripts', 'bootstrapwp_js_loader');
 
@@ -518,7 +518,6 @@ function mytheme_comments_form_defaults($default) {
   unset($default['comment_notes_after']);
   return $default;
 }
-
 
 /**
  * This theme was built with PHP, Semantic HTML, CSS, love, and a bootstrap.
