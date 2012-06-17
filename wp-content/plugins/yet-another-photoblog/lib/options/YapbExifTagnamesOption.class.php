@@ -67,7 +67,11 @@
 				$result .= '<td valign="top" nowrap style="border:0;">';
 		
 				$allLearnedTagnames = ExifUtils::getLearnedTagnames();
+				
 				$selected = explode(',', get_option($this->name));
+				if (!is_array($selected)) {
+					$selected = array();
+				}
 
 				$i=0;
 				$count = count($allLearnedTagnames);
@@ -76,7 +80,7 @@
 
 					for ($i; $i<$count; $i++) {
 						$result .= '<input id="' . $this->name . '_' . $i . '" type="checkbox" name="' . $this->name . '[]" value="' . $allLearnedTagnames[$i] . '"' . 
-							((in_array($allLearnedTagnames[$i], $selected))?' checked':'') . ' /> <label for="' . $this->name . '_' . $i . '" style="cursor:hand;">' . $allLearnedTagnames[$i] . '</label><br>';
+							((in_array($allLearnedTagnames[$i], $selected)) ? ' checked' : '') . ' /> <label for="' . $this->name . '_' . $i . '" style="cursor:hand;">' . $allLearnedTagnames[$i] . '</label><br>';
 						if (($i + 1) % ($count/4) == 0) $result .= '</td><td style="padding-left:20px;border:0;" valign="top">';
 					}
 					if (($i + 1) % ($count/4) == 0) $result .= '</td>';

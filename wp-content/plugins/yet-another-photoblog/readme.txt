@@ -4,8 +4,8 @@ Contributors: jaroat
 Donate link: http://johannes.jarolim.com/yapb/donate
 Tags: photoblog, photo blog, photo blogging, images, yapb, yet another photoblog
 Requires at least: 2.5
-Tested up to: 3.3.1
-Stable tag: 1.10.6
+Tested up to: 3.3.2
+Stable tag: 1.10.7
 
 Convert your WordPress Blog into a full featured photoblog in virtually no time.
 
@@ -110,6 +110,12 @@ Have a look at the [YAPB FAQ Page](http://johannes.jarolim.com/yapb "The plugins
 
 
 == Changelog ==
+
+= 2012-06-11, Release 1.10.7 =
+
+* Security Fix: Deleted phpThumb demo directory (Thanks to Scott Reilly for the report)
+* Actualized german translation
+* Bugfix: Warning from YabpExifTagnamesOption.class.php catched (Thanks to Anne for the feedback)
 
 = 2012-01-10, Release 1.10.6 =
 
