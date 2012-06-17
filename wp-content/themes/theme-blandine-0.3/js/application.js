@@ -2,13 +2,13 @@
 
   $(function(){
 
-    if (window.location.pathname.indexOf("/fr/") != -1){
+    if (window.location.pathname.indexOf("/fr") != -1){
         $("#select-language").val("fr");
     }
-    else if (window.location.pathname.indexOf("/de/") != -1){
+    else if (window.location.pathname.indexOf("/de") != -1){
               $("#select-language").val("de");
     }
-    else if (window.location.pathname.indexOf("en") != -1){
+    else if (window.location.pathname.indexOf("/en") != -1){
               $("#select-language").val("en");
     }
     // Disable certain links in docs
@@ -256,12 +256,15 @@ else {
 }
      var host = window.location.href.split(oldLocale)[0];
      var locale =  $("#select-language").val();
-     var query = " ";
-     if (window.location.href.split(oldLocale)[1] != null){
-        alert("non implementé");
-     }
-     else {
-        window.location.href = host+locale+query;    }
+     var query = window.location.href.split(oldLocale)[1];
+     
+    if (query != null) {
+      window.location.href = host+locale+query;
+    }
+    else {
+      window.location.href = host+locale;
+    }
+
   //window.location.href = "http://" + window.location.host + window.location.pathname + "?lang=" + $("#select-language").val();
 });
 

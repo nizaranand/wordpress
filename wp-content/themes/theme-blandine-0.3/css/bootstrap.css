@@ -115,7 +115,8 @@ a {
 }
 a:hover {
   color: #888888;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+
 }
 .row {
   margin-left: -20px;
@@ -322,6 +323,7 @@ h6 small {
   color: #999999;
 }
 h1 {
+  text-transform: uppercase;
   font-size: 30px;
   line-height: 36px;
 }
@@ -3564,6 +3566,9 @@ blockquote > p,
 footer {
   font-family: 'Georgia', sans-serif;
   color: #222222;
+}
+h1 {
+  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 }
 footer {
   font-size: 14px;
