@@ -3569,6 +3569,16 @@ footer {
 }
 h1 {
   font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #ea8915;
+  font-size: 20px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-style: italic;
+  font-size: 16px;
 }
 footer {
   font-size: 14px;

@@ -3,7 +3,7 @@
 Plugin Name: Sociable
 Plugin URI: http://blogplay.com/plugin
 Description: Automatically add links on your posts, pages and RSS feed to your favorite social bookmarking sites. 
-Version: 4.2.9
+Version: 4.3.0
 Author: Blogplay
 Author URI: http://blogplay.com/
 Copyright 2006 Peter Harkins (ph@malaprop.org)
@@ -376,7 +376,7 @@ function sociable_reset(){
     
     	'blogplay_tags' => 1, 
 
-		'version' =>'4.2.9',
+		'version' =>'4.3.0',
 
         'automatic_mode'         => 'on',
 
