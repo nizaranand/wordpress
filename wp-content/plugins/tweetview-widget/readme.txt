@@ -4,7 +4,7 @@ Donate link:
 Tags: twitter, widget, social network, sidebar
 Requires at least: 3.1
 Tested up to: 3.4
-Stable tag: 1.4.4
+Stable tag: 1.4.7
 
 Add a widget to your sidebar to show your latest tweets.
 
@@ -12,7 +12,7 @@ Add a widget to your sidebar to show your latest tweets.
 
 Add a widget to your sidebar to show your latest tweets.
 
-A long time I searched a sidebarwidget to show my last tweets in my blog. So I found "Tweetbox" from Rob Carr. But the Sourcecode it generates was terribly. So my friend <a href="http://sharjes.de">Simon</a> am I made our own plugin, based on Tweetbox.
+A long time I searched a sidebarwidget to show my last tweets in my blog. So I found "Tweetbox" from Rob Carr. But the Sourcecode it generates was terribly. So my friend [Simon](http://sharjes.de) am I made our own plugin, based on Tweetbox.
 
 **Features**
 
@@ -23,10 +23,10 @@ A long time I searched a sidebarwidget to show my last tweets in my blog. So I f
 
 * English
 * German
-* Spanish (thanks to <a href="http://www.rubenas.com">Rubén Álvarez</a>)
-* French (thanks to <a href="http://creativejuiz.fr/">Geoffrey</a>)
+* Spanish (thanks to [Rubén Álvarez](http://www.rubenas.com))
+* French (thanks to [Geoffrey](http://creativejuiz.fr))
 * Arabic (Saudi Arabia) (thanks to Hammad Alshammari)
-* Swedish (thanks to <a href="http://www.naxiait.se/">Niklas Ekman</a>)
+* Swedish (thanks to [Niklas Ekman](http://www.naxiait.se/))
 
 == Installation ==
 
@@ -48,9 +48,21 @@ You can use the built in installer and upgrader, or you can install the plugin m
 
 == Changelog ==
 
+= 1.4.7 =
+* (31.07.2012)
+* Fix script-tag
+
+= 1.4.6 =
+* (30.07.2012)
+* Fixed JS in footer to prevent errors is sidebar is not loaded.
+
+= 1.4.5 =
+* (28.07.2012)
+* Moved JS Function Call to the Footer-Section. Make sure [wp_footer()](http://codex.wordpress.org/wp_footer) is called in your theme properly.
+
 = 1.4.4 =
 * (10.07.2012)
-* Added swedish translation (thanks to <a href="http://www.naxiait.se/">Niklas Ekman</a>)
+* Added swedish translation (thanks to [Niklas Ekman](http://www.naxiait.se/))
 
 = 1.4.3 =
 * (18.05.2012)
@@ -77,11 +89,11 @@ You can use the built in installer and upgrader, or you can install the plugin m
 
 = 1.3.10 =
 * (07.11.2011)
-* Add: french translation (thanks to <a href="http://creativejuiz.fr/">Geoffrey</a>)
+* Add: french translation (thanks to [Geoffrey](http://creativejuiz.fr))
 
 = 1.3.9 =
 * (25.03.2011)
-* Add: spanish translation. (thanks to <a href="http://www.rubenas.com">Rubén Álvarez</a>)
+* Add: spanish translation. (thanks to [Rubén Álvarez](http://www.rubenas.com))
 
 = 1.3.8 =
 * (09.03.2011)
@@ -150,7 +162,7 @@ You can use the built in installer and upgrader, or you can install the plugin m
 
 == Frequently Asked Questions ==
 
-For any questions use the comments in my article http://blog.ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/
+For any questions use the comments in my article [http://ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/](http://ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/)
 
 == Upgrade Notice ==
 

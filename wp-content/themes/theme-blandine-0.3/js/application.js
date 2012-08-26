@@ -209,8 +209,8 @@ var $scrollingDiv = $("#scrollingDiv");
 
 $(window).scroll(function(){      
   $scrollingDiv
-    .stop()
-    .animate({"marginTop": ($(window).scrollTop()) + "px"}, 1000 );      
+    //.stop()
+    //.animate({"marginTop": ($(window).scrollTop()) + "px"}, 0 );      
 });
 
 //gestion des chevrons dans les accordeons

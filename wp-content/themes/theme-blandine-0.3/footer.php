@@ -11,18 +11,15 @@
 ?>
 
 
-      <footer>
+    </div> <!-- /container -->
 
-     
-        <!--p>&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?> - <a href="#">Mentions légales</a></p--> 
           <?php
     if ( function_exists('dynamic_sidebar')) dynamic_sidebar("footer-content");
 ?>
 
-      </footer>
 
-    </div> <!-- /container -->
-<?php wp_footer(); ?> 
+
+
 <script type="text/javascript">
 // Adding the class "dropdown" to li elements with submenus  //	
 jQuery(document).ready(function(){
@@ -39,5 +36,7 @@ jQuery('a.dropdown-toggle')
 .attr('data-toggle', 'dropdown');
   });
 </script>
+<?php wp_footer(); ?> 
+
   </body>
 </html>

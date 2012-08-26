@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: TweetView-Widget
- * Plugin URI: http://blog.ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/
+ * Plugin URI: http://ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/
  * Description: Adds a widget to your blogs sidebar to show your latest tweets. (XHTML-valid - based on Tweetbox from Rob Carr)
- * Version: 1.4.4
+ * Version: 1.4.7
  * Author: <a href="http://sharjes.de">Simon Harjes</a> & <a href="http://ppfeufer.de">H.-Peter Pfeufer</a>
  */
 if(!class_exists('Tweetview_Widget')) {
 	class Tweetview_Widget extends WP_Widget {
 		private $var_sUserAgent;
-		private $var_sPluginVersion = '1.4.4';
+		private $var_sPluginVersion = '1.4.7';
 		private $var_sTextdomain = 'tweetview-sidebar-widget';
 
 		function Tweetview_Widget() {
@@ -114,7 +114,8 @@ if(!class_exists('Tweetview_Widget')) {
 		}
 
 		function tweetview_output($args = array(), $position) {
-			echo '<script type="text/javascript">jQuery(document).ready(function() {twitter.load("' . $args['tweetview_username'] . '", ' . $args['tweetview_no_tweets'] . ')});</script>';
+			echo '<script type="text/javascript">var tweetview_username = "' . $args['tweetview_username'] . '"; var tweetview_number_of_tweets = "' . $args['tweetview_no_tweets'] . '";</script>';
+// 			echo '<script type="text/javascript">jQuery(document).ready(function() {twitter.load("' . $args['tweetview_username'] . '", ' . $args['tweetview_no_tweets'] . ')});</script>';
 			echo '<ul id="tweetview_tweetlist"><li>' . __('Loading tweets', $this->var_sTextdomain) . ' ...</li></ul>';
 			echo '<ul><li>' . __('Follow', $this->var_sTextdomain) . ' <a href="http://twitter.com/' . $args['tweetview_username'] . '">@' . $args['tweetview_username'] . '</a> ' . __('on twitter.', $this->var_sTextdomain) . '</li></ul>';
 		}
@@ -162,7 +163,7 @@ if(!class_exists('Tweetview_Widget')) {
 				wp_register_script('tweetview-js', plugin_dir_url(__FILE__) . 'js/tweetview-min.js', array(
 // 				wp_register_script('tweetview-js', plugin_dir_url(__FILE__) . 'js/tweetview.js', array(
 					'jquery'
-				));
+				), $this->var_sPluginVersion, true);
 				wp_enqueue_script('tweetview-js');
 				wp_localize_script('tweetview-js', 'localizing_tweetview_js', array(
 					'second' => __('second', $this->var_sTextdomain),
@@ -175,6 +176,8 @@ if(!class_exists('Tweetview_Widget')) {
 					'days' => __('days', $this->var_sTextdomain),
 					'ago' => __('time ago:', $this->var_sTextdomain)
 				));
+
+				echo '<script type="text/javascript">jQuery(document).ready(function() {if((typeof tweetview_username != \'undefined\') && ( typeof tweetview_number_of_tweets != \'undefined\')) {twitter.load(tweetview_username, tweetview_number_of_tweets)}});</script>';
 			} // END if(!is_page() || !is_attachment())
 		} // END function tweetview_javascript()
 
