@@ -257,9 +257,9 @@ function bootstrapwp_comment( $comment, $args, $depth ) {
 					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>"><time pubdate datetime="<?php comment_time( 'c' ); ?>">
 					<?php
 						/* translators: 1: date, 2: time */
-						printf( __( 'le %1$s à %2$s', 'bootstrap' ), get_comment_date(), get_comment_time("H:m") ); ?>
+						printf( __( 'le %1$s à %2$s', 'bootstrap' ), get_comment_date(), get_comment_time() ); ?>
 					</time></a>
-					<?php edit_comment_link( __( '(Edit)', 'bootstrap' ), ' ' );
+					<?php edit_comment_link( __( '(Editer)', 'bootstrap' ), ' ' );
 					?>
 				</div><!-- .comment-meta .commentmetadata -->
 			</footer>

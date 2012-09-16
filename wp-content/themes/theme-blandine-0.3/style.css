@@ -19,7 +19,7 @@ Overriding some defaults from the Bootstrap defaults to improve/fix integration 
 body {
   padding-top: 60px;
    word-spacing: -0.05em;
-   background: url("./img/headerbg2.jpg") repeat scroll 0 0 transparent;
+   background: url("./img/bg-pattern.png") repeat scroll 0 0 transparent;
 }
 
 /* Changing the navbar from 'fixed' to 'relative' to accomodate the WP-admin bar 
@@ -336,7 +336,7 @@ ol.commentlist img.avatar {
 }
 ol.commentlist li {
   margin: 0;
-  padding: 8px 0 8px 64px;
+  padding: 8px 0 8px 20px;
   list-style: none;
   overflow: hidden;
   position: relative;
@@ -516,7 +516,7 @@ margin-left:  20px;
 #footer {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEBAMAAABb34NNAAAAGFBMVEUTExMdHR0aGhokJCQbGxsVFRUiIiIcHBx9BcGBAAAAFElEQVQI12M0dmH+IcgkKMj8XhAAD+ACrLc6tVIAAAAASUVORK5CYII=") repeat scroll center top #333333;
     float: left;
-    height: 400px;
+    /*height: 400px;*/
     margin-top: 25px;
     padding-top: 20px;
     width: 100%;
@@ -534,8 +534,14 @@ margin-left:  20px;
     text-decoration: none;
 }
 #footer a:hover {
-    color: #7F7F7F;
+    /*color: #7F7F7F;*/
 }
+
+#footer .label:hover {
+    background-color: #EA8915;
+}
+
+
 #footer .example_type {
     color: #999999;
 }
@@ -588,4 +594,13 @@ margin-left:  20px;
 }
 #footer ul.share li.facebook {
     width: 80px;
+}
+
+.hero-unit-page {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.spancarousel{
+  width: 500px;
 }

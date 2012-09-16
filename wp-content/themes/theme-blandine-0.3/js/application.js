@@ -104,7 +104,7 @@
       })
 
     // carousel demo
-    $('#myCarousel').carousel('pause')
+    $('#myCarousel').carousel('pause');
 
     // javascript build logic
     var inputsComponent = $("#components.download input")
@@ -209,6 +209,7 @@ var $scrollingDiv = $("#scrollingDiv");
 
 $(window).scroll(function(){      
   $scrollingDiv
+  // chercher sur la doc jquery comment empecher le scroll a l infinii
     //.stop()
     //.animate({"marginTop": ($(window).scrollTop()) + "px"}, 0 );      
 });
