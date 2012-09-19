@@ -1,3 +1,4 @@
+@import url('http://fonts.googleapis.com/css?family=Radley');
 /*!
  * Bootstrap v2.0.0
  *
@@ -3566,10 +3567,11 @@ h6,
 .subnav a,
 blockquote > p,
 footer {
-  font-family: "minion-pro-1", "minion-pro-2", sans-serif;
+  font-family: "Radley", Arial, Helvetica, sans-serif;
   color: #222222;
 }
 h1 {
+  font-family: "Radley", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #ea8915;
   font-size: 20px;
