@@ -118,43 +118,6 @@ share your posts, don't you? :) Get it now!
 			
 			</div>
 
-			
-
-<div style="float:left;width=100%">
-
-<style>
-
-.sociable_fueto{
-
-	color: #18305E;
-
-    font-size: 19px;
-
-    font-weight: bold;
-
-	float:left;
-
-	margin-left:10px
-
-}
-
-</style>
-
-<div style="float:left;width=100%"><div  class="sociable_fueto" >If you like Sociable, you're gonna LOVE Fueto. Power your blog searches with social signals.</div></div><br>
-
-	<img src="http://balon24.com.ar/wp-content/plugins/sociable/images/Fueto_Sociable.png" usemap="#fueto">				</div>
-			<map name="fueto">
-
-			  <area shape="rect" coords="35,273,210,313" href="http://wordpress.org/extend/plugins/fueto/" target="_blank"  alt="Download Fueto" 				style="z-index:1;cursor:pointer;"  				 />			
-
-			  <area shape="rect" coords="215,273,335,313" alt="Read More"  	href="http://wordpress.org/extend/plugins/fueto/" target="_blank" 		style="z-index:10;cursor:pointer;"  			 />
-
-			  
-
-			  
-
-			</map>
-
 			</div>
     <?php }
     

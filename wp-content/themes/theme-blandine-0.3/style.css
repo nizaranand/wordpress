@@ -598,9 +598,17 @@ margin-left:  20px;
 
 .hero-unit-page {
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .spancarousel{
   width: 500px;
+}
+
+.row {
+  margin-left: 0px;
+}
+
+[class*="span"] {
+  margin-left: 0px;
 }

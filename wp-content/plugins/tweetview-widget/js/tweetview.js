@@ -57,7 +57,7 @@ twitter.load = function(name, tweetcount) {
 				lItem.setAttribute('class', 'tweet');
 
 				twitterbox.appendChild(lItem);
-				twitterbox.lastChild.innerHTML = '<span class="talos-tweetview tweettext">' + text + '<\/span><br \/><span class="talos-tweetview time-ago">' + localizing_tweetview_js.ago + ' <a href="http://twitter.com/#!/' + name + '/status/' + tweet.id_str + '">' + twitter.calcTime(tweet.created_at) + '<\/a><\/span>';
+				twitterbox.lastChild.innerHTML = '<span class="tweetview-widget-tweettext">' + text + '<\/span><br \/><span class="tweetview-widget-time-ago">' + localizing_tweetview_js.ago + ' <a href="http://twitter.com/#!/' + name + '/status/' + tweet.id_str + '">' + twitter.calcTime(tweet.created_at) + '<\/a><\/span>';
 			}
 		});
 	});

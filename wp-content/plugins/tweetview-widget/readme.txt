@@ -4,7 +4,7 @@ Donate link:
 Tags: twitter, widget, social network, sidebar
 Requires at least: 3.1
 Tested up to: 3.4
-Stable tag: 1.4.7
+Stable tag: 1.4.10
 
 Add a widget to your sidebar to show your latest tweets.
 
@@ -48,13 +48,25 @@ You can use the built in installer and upgrader, or you can install the plugin m
 
 == Changelog ==
 
+= 1.4.10 =
+* (03.09.2012)
+* Fixed JS compression errors.
+
+= 1.4.9 =
+* (03.09.2012)
+* Fixed JS error.
+
+= 1.4.8 =
+* (03.09.2012)
+* Fix: Corrected CSS-classes.
+
 = 1.4.7 =
 * (31.07.2012)
 * Fix script-tag
 
 = 1.4.6 =
 * (30.07.2012)
-* Fixed JS in footer to prevent errors is sidebar is not loaded.
+* Fixed JS in footer to prevent errors if sidebar is not loaded.
 
 = 1.4.5 =
 * (28.07.2012)

@@ -3,7 +3,7 @@
  * Plugin Name: TweetView-Widget
  * Plugin URI: http://ppfeufer.de/tweetview-widget-anzeige-der-letzten-tweets-in-der-wordpress-sidebar/
  * Description: Adds a widget to your blogs sidebar to show your latest tweets. (XHTML-valid - based on Tweetbox from Rob Carr)
- * Version: 1.4.7
+ * Version: 1.4.10
  * Author: <a href="http://sharjes.de">Simon Harjes</a> & <a href="http://ppfeufer.de">H.-Peter Pfeufer</a>
  */
 if(!class_exists('Tweetview_Widget')) {
