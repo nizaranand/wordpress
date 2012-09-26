@@ -28,7 +28,7 @@ get_header(); ?>
       </header>
          
         <div class="row content">
-<div class="span9 hero-unit-page">
+<div class="span8 hero-unit-page">
 
             <?php the_content();?>
 <?php endwhile; // end of the loop. ?>
