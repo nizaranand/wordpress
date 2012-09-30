@@ -1,4 +1,10 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
 @import url('http://fonts.googleapis.com/css?family=Radley');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
 /*!
  * Bootstrap v2.0.0
  *
@@ -107,8 +113,8 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 18px;
   color: #222222;
   background-color: #ffffff;
@@ -586,12 +592,12 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 18px;
 }
 p small {
-  font-size: 14px;
+  font-size: 12px;
   color: #999999;
 }
 .lead {
@@ -785,7 +791,7 @@ pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, "Courier New", monospace;
   font-family: Menlo, Monaco, "Courier New", monospace;
-  font-size: 15px;
+  font-size: 13px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -839,7 +845,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 27px;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 36px;
   color: #333333;
   border: 0;
@@ -852,18 +858,18 @@ select,
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
 }
@@ -881,7 +887,7 @@ select,
   height: 18px;
   padding: 4px;
   margin-bottom: 9px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   color: #888888;
   border: 1px solid #ccc;
@@ -2312,7 +2318,7 @@ table .span12 {
 .btn {
   display: inline-block;
   padding: 4px 10px 4px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   color: #333333;
   text-align: center;
@@ -2415,7 +2421,7 @@ table .span12 {
 }
 .btn-large {
   padding: 9px 14px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: normal;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2429,7 +2435,7 @@ table .span12 {
 }
 .btn-small {
   padding: 5px 9px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
 }
 .btn-small .icon {
@@ -5942,7 +5948,7 @@ a.thumbnail:hover {
 }
 .label {
   padding: 1px 3px 2px;
-  font-size: 12px;
+  font-size: 10.5px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
@@ -6389,8 +6395,6 @@ h4,
 h5,
 h6,
 .brand,
-.navbar,
-.subnav a,
 blockquote > p,
 footer {
   font-family: "Radley", Arial, Helvetica, sans-serif;
@@ -6400,14 +6404,14 @@ h1 {
   font-family: "Radley", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #ea8915;
-  font-size: 20px;
+  font-size: 30px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 26px;
 }
 h3 {
   font-style: italic;
-  font-size: 16px;
+  font-size: 23px;
 }
 footer {
   font-size: 14px;
@@ -6415,9 +6419,8 @@ footer {
 .navbar,
 .subnav a,
 blockquote > p {
-  /*font-family: 'League Gothic';*/
-
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 h1,
 h2,
@@ -6426,12 +6429,13 @@ h4,
 h5,
 h6,
 .brand {
-  font-weight: 700;
+  font-weight: normal;
+  letter-spacing: 0.12em;
 }
 .navbar .brand {
   color: #ea8915;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 .navbar .brand:hover {
   background-color: #EEEEEE;
@@ -6526,7 +6530,7 @@ div.subnav .nav > .active > a,
 div.subnav .nav > .active > a:hover {
   color: #ea8915;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 .btn-primary {
   background-color: #2a2a2a;

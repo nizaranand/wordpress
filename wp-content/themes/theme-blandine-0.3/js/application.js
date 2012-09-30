@@ -79,7 +79,7 @@
       //selector: "a[rel=tooltip]"
     })
 
-    $('.tooltip-demo.well').tooltip({
+    $('.tooltip-demo').tooltip({
       selector: "a[rel=tooltip]"
     })
 
@@ -269,6 +269,16 @@ else {
   //window.location.href = "http://" + window.location.host + window.location.pathname + "?lang=" + $("#select-language").val();
 });
 
+//change opacity img hober footer
+$("#footer p  a img").hover(
+  function () {
+    $(this).css("opacity", "1");
+  },
+  function () {
+    $(this).css("opacity", "0.65");
+  }
+
+);    
 
 
 }(window.jQuery)

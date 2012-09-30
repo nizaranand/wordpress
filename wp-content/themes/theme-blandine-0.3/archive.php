@@ -22,7 +22,8 @@ if (have_posts() ) ;?>
 <div class="container">
 
 <div class="row content">
-	<div class="span9 hero-unit-page">
+	<div class="span9">
+		<div class="hero-unit-page">
 		<?php while ( have_posts() ) : the_post(); ?>
 		<div <?php post_class(); ?>>
 			<a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><h3><?php the_title();?></h3></a>
@@ -43,8 +44,8 @@ if (have_posts() ) ;?>
 
 		<?php endwhile; ?>
 		<?php bootstrapwp_content_nav('nav-below');?>
-
-	</div><!-- /.span8 -->
+		</div>
+	</div><!-- /.span9 -->
 	<?php //get_sidebar(); ?>
 	<?php get_sidebar('blog'); ?>
 

@@ -21,8 +21,9 @@ a {
 // -----------------------------------------------------
 
 @import url('http://fonts.googleapis.com/css?family=Radley');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
-h1, h2, h3, h4, h5, h6, .brand, .navbar, .subnav a, blockquote > p, footer {
+h1, h2, h3, h4, h5, h6, .brand, blockquote > p, footer {
 	//font-family: 'Georgia', sans-serif;
 	font-family:"Radley", Arial, Helvetica, sans-serif;
 	color: @textColor;
@@ -32,16 +33,16 @@ h1 {
   font-family: "Radley", Arial, Helvetica, sans-serif;
   text-transform:uppercase;
   color: @orange;
-  font-size : 20px;
+  font-size : 30px;
 }
 
 h2 {
-  font-size : 18px;
+  font-size : 26px;
 }
 
 h3 {
   font-style : italic;
-  font-size : 16px;
+  font-size : 23px;
 }
 
 footer {
@@ -49,12 +50,13 @@ footer {
 }
 
  .navbar, .subnav a, blockquote > p {
-	/*font-family: 'League Gothic';*/
-	font-size : 16px;
+	font-family:'Open Sans',sans-serif;
+	font-size : 14px;
 }
 
 h1, h2, h3, h4, h5, h6, .brand {
-	font-weight: 700;
+	font-weight: normal;
+	letter-spacing: 0.12em;
 }
 
 // NAVBAR
@@ -63,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .brand {
 .navbar .brand {
 	color: @navbarLinkColor;
 	text-shadow: none;
-	font-weight: bold;
+	font-weight: normal;
 	
 	&:hover {
 		background-color: #EEEEEE;
@@ -141,7 +143,7 @@ div.subnav .nav > .active > a,
 div.subnav .nav > .active > a:hover {
 	color: @orange;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 // BUTTONS

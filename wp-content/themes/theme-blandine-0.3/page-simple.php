@@ -16,7 +16,7 @@ get_header(); ?>
    <div class="container">
         <h1><?php the_title();?></h1>    
         <div class="row content">
-<div class="span8">
+<div class="span9">
 
             <?php the_content();?>
 <?php endwhile; // end of the loop. ?>

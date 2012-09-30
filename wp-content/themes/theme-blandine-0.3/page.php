@@ -28,11 +28,11 @@ get_header(); ?>
       </header>
          
         <div class="row content">
-<div class="span8 hero-unit-page">
-
+<div class="span9">
+<div class=" hero-unit-page">
             <?php the_content();?>
 <?php endwhile; // end of the loop. ?>
-          </div><!-- /.span8 -->
+          </div></div><!-- /.span8 -->
           
           <?php get_sidebar(); ?>
 

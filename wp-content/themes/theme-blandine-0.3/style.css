@@ -572,10 +572,17 @@ margin-left:  20px;
     color: #FAFAFA;
     font-size: 12px;
 }
+#footer p > a{
+    margin-right: 40px;
+}
+#footer p > a > img{
+    opacity : 0.65;
+}
 #footer h3 {
     color: #FAFAFA;
     font: 16px "BebasNeueRegular",Arial,sans-serif;
     letter-spacing: 1px;
+     margin-bottom: 10px;
 }
 #footer .dot {
     color: #999999;
@@ -598,9 +605,13 @@ margin-left:  20px;
 
 .hero-unit-page {
     margin-left: 0px;
-    margin-right: 15px;
+    /*margin-right: 15px;*/
     margin-bottom: 15px;
     text-align: justify;
+}
+
+.right{
+    float : right;
 }
 
 .socialhomepage a{
