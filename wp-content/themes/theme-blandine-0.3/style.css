@@ -17,9 +17,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Overriding some defaults from the Bootstrap defaults to improve/fix integration with WordPress
 -------------------------------------------------- */
 body {
-  padding-top: 60px;
-   word-spacing: -0.05em;
-   background: url("./img/bg-pattern.png") repeat scroll 0 0 transparent;
+ /*padding-top: 60px;*/
+ word-spacing: -0.05em;
+ background: url("./img/bg-pattern.png") repeat scroll 0 0 transparent;
 }
 
 /* Changing the navbar from 'fixed' to 'relative' to accomodate the WP-admin bar 
@@ -432,10 +432,10 @@ ol.comment-list li p.meta strong {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   cursor: pointer;
-background-color: #EE9E3F;
-    background-image: -moz-linear-gradient(center top , #F0AC5B, #EA8915);
-    background-repeat: repeat-x;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #EE9E3F;
+  background-image: -moz-linear-gradient(center top , #F0AC5B, #EA8915);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
 .button:hover, #submit:hover, .widget_search #searchsubmit:hover, .reply .comment-reply-link:hover{
@@ -491,8 +491,8 @@ background-color: #EE9E3F;
 
 /*special ressouces navbar */
 .last-item a{
-color: #444 !important;
-margin-left:  20px;
+  color: #444 !important;
+  margin-left:  20px;
 }
 
 .external {
@@ -510,108 +510,125 @@ margin-left:  20px;
 
 
 .hero-unit-page a{ 
-  border-bottom: 2px dotted;
+  border-bottom: 1px dotted;
+}
+
+.hero-unit-page a.btn {
+  border-bottom: 1px solid;
+  border-bottom-color: #CCCCCC;
+}
+.hero-unit-page a.btn-warning {
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+}
+
+.newpager{
+  margin-bottom: 10px;
+}
+
+.newpager-right{
+  float: right;
 }
 
 #footer {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEBAMAAABb34NNAAAAGFBMVEUTExMdHR0aGhokJCQbGxsVFRUiIiIcHBx9BcGBAAAAFElEQVQI12M0dmH+IcgkKMj8XhAAD+ACrLc6tVIAAAAASUVORK5CYII=") repeat scroll center top #333333;
-    float: left;
-    /*height: 400px;*/
-    margin-top: 25px;
-    padding-top: 20px;
-    width: 100%;
-    color: white;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEBAMAAABb34NNAAAAGFBMVEUTExMdHR0aGhokJCQbGxsVFRUiIiIcHBx9BcGBAAAAFElEQVQI12M0dmH+IcgkKMj8XhAAD+ACrLc6tVIAAAAASUVORK5CYII=") repeat scroll center top #333333;
+  float: left;
+  /*height: 400px;*/
+  margin-top: 25px;
+  padding-top: 20px;
+  width: 100%;
+  color: white;
 }
 
 #footer_wrapper {
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
-    width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
 }
 #footer a {
-    color: #FAFAFA;
-    text-decoration: none;
+  color: #FAFAFA;
+  text-decoration: none;
 }
 #footer a:hover {
-    /*color: #7F7F7F;*/
+  /*color: #7F7F7F;*/
 }
 
 #footer .label:hover {
-    background-color: #EA8915;
+  background-color: #EA8915;
 }
 
 
 #footer .example_type {
-    color: #999999;
+  color: #999999;
 }
 #footer .item {
-    float: left;
-    margin-right: 25px;
-    width: 200px;
+  float: left;
+  margin-right: 25px;
+  width: 200px;
 }
 #footer .about {
-    width: 485px;
+  width: 485px;
 }
 #footer .last {
-    margin-right: 0;
+  margin-right: 0;
 }
 #footer .item ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
 }
 #footer .item li {
-    border-top: thin solid #B7B7B7;
-    padding: 10px 0;
+  border-top: thin solid #B7B7B7;
+  padding: 10px 0;
 }
 #footer .item li a {
-    display: block;
+  display: block;
 }
 #footer p {
-    color: #FAFAFA;
-    font-size: 12px;
+  color: #FAFAFA;
+  font-size: 12px;
 }
 #footer p > a{
-    margin-right: 40px;
+  margin-right: 40px;
 }
 #footer p > a > img{
-    opacity : 0.65;
+  opacity : 0.65;
 }
 #footer h3 {
-    color: #FAFAFA;
-    font: 16px "BebasNeueRegular",Arial,sans-serif;
-    letter-spacing: 1px;
-     margin-bottom: 10px;
+  color: #FAFAFA;
+  font: 16px "BebasNeueRegular",Arial,sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 #footer .dot {
-    color: #999999;
-    padding: 0 5px;
+  color: #999999;
+  padding: 0 5px;
 }
 #footer ul.share li {
-    border: medium none;
-    float: left;
-    margin-right: 10px;
+  border: medium none;
+  float: left;
+  margin-right: 10px;
 }
 #footer ul.share li.twitter {
-    width: 90px;
+  width: 90px;
 }
 #footer ul.share li.google {
-    width: 66px;
+  width: 66px;
 }
 #footer ul.share li.facebook {
-    width: 80px;
+  width: 80px;
 }
 
 .hero-unit-page {
-    margin-left: 0px;
-    /*margin-right: 15px;*/
-    margin-bottom: 15px;
-    text-align: justify;
+  margin-left: 0px;
+  /*margin-right: 15px;*/
+  margin-bottom: 15px;
+  text-align: justify;
 }
 
 .right{
-    float : right;
+  float : right;
 }
 
 .socialhomepage a{
@@ -627,4 +644,14 @@ margin-left:  20px;
 
 [class*="span"] {
   margin-left: 0px;
+}
+
+.content-block{
+  margin-bottom: 50px;
+}
+
+.title {
+  letter-spacing: 0.12em;
+  font-size: 16px;
+  font-style: italic;
 }

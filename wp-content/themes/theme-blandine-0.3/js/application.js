@@ -195,14 +195,21 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
 $("#main-menu > li:last-child").addClass("last-item");
 
 //liens externes
-$(".widget ul li a.external").hover(
+$("a.external").hover(
   function () {
-    $(this).append($("<img class='external' src='/wordpress/wp-content/themes/theme-blandine-0.3/img/fleche.png'>"));
+    $(this).append($("<img style='opacity:0.6;' class='external' src='/wordpress/wp-content/themes/theme-blandine-0.3/img/fleche_b.png'>"));
   }, 
   function () {
     $(this).find("img:last").remove();
   }
 );
+
+$("a.external").click(
+  function () {
+    $(this).attr('target','_blank');
+  }
+  );
+
 
 //sidebar effect
 var $scrollingDiv = $("#scrollingDiv");
