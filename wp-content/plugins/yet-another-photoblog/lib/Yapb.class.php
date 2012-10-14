@@ -585,10 +585,12 @@
 		/**
 		 * Options page
 		 * We insert an options page for yapb
+		 * 
+		 * 2012-10-11 Bugfix: check for concrete ability instead of deprecated authorization value (number): Thanks to Aaron Welles for feedback
 		 **/
 		function _on_admin_menu() {
 			if (function_exists('add_options_page')) {
-				add_options_page('YAPB', 'YAPB', 8, basename(__FILE__), array(&$this, 'render_options_panel_content'));
+				add_options_page('YAPB', 'YAPB', 'manage_options', basename(__FILE__), array(&$this, 'render_options_panel_content'));
 			}
 		}
 
@@ -781,8 +783,8 @@
 								$thumbnail_href = $image->getThumbnailHref($thumbnail_conf, 1);
 							} 
 
+							echo '<meta property="og:image" content="' . $thumbnail_href . '" />' . "\n";
 							echo '<link rel="image_src" href="' . $thumbnail_href . '" />' . "\n";
-							
 							
 						}
 						
@@ -814,7 +816,9 @@
 			$result = $content;
 			
 			// We only have to alter the content if we have an image
-			if (property_exists($post, 'image')) {
+			// Bugfix: Check for $post before checking for the property - Thanks to baztoune@gmail.com for feedback
+			
+			if ($post && property_exists($post, 'image')) {
 			
 				// Was this hook called out of a feed generation?
 				if (is_feed()) {

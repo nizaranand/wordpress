@@ -597,7 +597,7 @@ ol.comment-list li p.meta strong {
 }
 #footer h3 {
   color: #FAFAFA;
-  font: 16px "BebasNeueRegular",Arial,sans-serif;
+  /*font: 16px "BebasNeueRegular",Arial,sans-serif;*/
   letter-spacing: 1px;
   margin-bottom: 10px;
 }

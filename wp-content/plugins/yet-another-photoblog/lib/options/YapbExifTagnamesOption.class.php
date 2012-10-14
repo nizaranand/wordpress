@@ -68,10 +68,15 @@
 		
 				$allLearnedTagnames = ExifUtils::getLearnedTagnames();
 				
-				$selected = explode(',', get_option($this->name));
-				if (!is_array($selected)) {
-					$selected = array();
-				}
+				// Small fix - thanks to Daviz
+				
+				$selected = array();
+				
+				$option_value = get_option($this->name);
+				if (is_string($option_value)) {
+					$selected = explode(',', $option_value);
+				} 
+				
 
 				$i=0;
 				$count = count($allLearnedTagnames);

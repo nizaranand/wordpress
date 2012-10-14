@@ -4,8 +4,8 @@ Contributors: jaroat
 Donate link: http://johannes.jarolim.com/yapb/donate
 Tags: photoblog, photo blog, photo blogging, images, yapb, yet another photoblog
 Requires at least: 2.5
-Tested up to: 3.3.2
-Stable tag: 1.10.7
+Tested up to: 3.4.2
+Stable tag: 1.10.9
 
 Convert your WordPress Blog into a full featured photoblog in virtually no time.
 
@@ -110,6 +110,17 @@ Have a look at the [YAPB FAQ Page](http://johannes.jarolim.com/yapb "The plugins
 
 
 == Changelog ==
+
+= 2012-10-11, Release 1.10.9 =
+
+* Bugfix: Facebook thumbnail needs an og:image instead of an og:url meta tag (Shame over me)
+
+= 2012-10-11, Release 1.10.8 =
+
+* New Feature: Additional Facebook thumbnail integration via og:url meta value (Thanks to Jorge Otero for feedback)
+* Bugfix: More stable default value implementation in YapbExifTagnamesOption.class.php (Thanks to Daviz for the feedback)
+* Bugfix: Check for $post existance before checking for post property in Yapb.class.php (Thanks to baztoune for the feedback)
+* Bugfix: check for concrete ability name instead of deprecated authorization value (number) (Thanks to Aaron Welles for feedback)
 
 = 2012-06-11, Release 1.10.7 =
 
