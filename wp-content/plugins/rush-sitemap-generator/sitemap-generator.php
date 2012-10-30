@@ -1131,8 +1131,6 @@ function sgwp_create_sitemap() {
 	$t_out .= "\n\n<!-- START of WP Rush Sitemap Generator output -->\n\n";
 
 	//$t_out .= '<div class="sgwp-wrapper">';
-
-	$t_out .= "<h1>Plan du site</h1>";
 	
 	if ($page_nav_where != 'bottom') {
 		$t_out .= sgwp_generate_nav($total_pages, $current_page, $page_nav, $sm_name);

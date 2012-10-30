@@ -79,19 +79,20 @@
       //selector: "a[rel=tooltip]"
     })
 
-    $('.tooltip-demo').tooltip({
+    /*$('.tooltip-demo').tooltip({
       selector: "a[rel=tooltip]"
     })
 
     $('.tooltip-test').tooltip()
-    $('.popover-test').popover()
-
+    //$('.popover-test').popover()
+*/
     // popover demo
-    $("a[rel=popover]")
+    /*$("a[rel=popover]")
       .popover()
       .click(function(e) {
         e.preventDefault()
       })
+*/
 
     // button state demo
     $('#fat-btn')
@@ -104,7 +105,7 @@
       })
 
     // carousel demo
-    $('#myCarousel').carousel('pause');
+    //$('#myCarousel').carousel('pause');
 
     // javascript build logic
     var inputsComponent = $("#components.download input")
@@ -197,7 +198,7 @@ $("#main-menu > li:last-child").addClass("last-item");
 //liens externes
 $("a.external").hover(
   function () {
-    $(this).append($("<img style='opacity:0.6;' class='external' src='/wordpress/wp-content/themes/theme-blandine-0.3/img/fleche_b.png'>"));
+    $(this).append($("<img style='opacity:0.6;margin-left:5px' class='external' src='/wordpress/wp-content/themes/theme-blandine-0.3/img/fleche_b.png'>"));
   }, 
   function () {
     $(this).find("img:last").remove();

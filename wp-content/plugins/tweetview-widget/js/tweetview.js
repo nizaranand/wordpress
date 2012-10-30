@@ -43,7 +43,8 @@ twitter.calcTime = function(tstr) {
 };
 
 twitter.load = function(name, tweetcount) {
-	jQuery.getJSON('http://twitter.com/status/user_timeline/' + name + '.json?count=' + tweetcount + '&callback=?', function(data) {
+//	jQuery.getJSON('http://twitter.com/status/user_timeline/' + name + '.json?count=' + tweetcount + '&callback=?', function(data) {
+	jQuery.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + name + '&count=' + tweetcount + '&callback=?', function(data) {
 		var twitterbox = document.getElementById('tweetview_tweetlist');
 		twitterbox.innerHTML = '';
 

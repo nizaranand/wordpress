@@ -28,16 +28,10 @@ if (have_posts() ) ;?>
 		<div <?php post_class(); ?>>
 			<a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><h3><?php the_title();?></h3></a>
 			<p class="meta"><?php echo bootstrapwp_posted_on();?></p>
-			<div class="row">              
-				<div class="span2">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
 						<?php echo catch_that_image();?></a>
-					</div><!-- /.span2 -->
-					<div class="span9">
 						<?php the_excerpt();?>
-					</div><!-- /.span6 -->
-				</div><!-- /.row -->   
-
+		
 			            <?php the_tags( '<p>Tags: ', ' ', '</p>'); ?>
 				<hr />  
 			</div><!-- /.post_class -->

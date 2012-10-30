@@ -14,13 +14,13 @@ get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <div class="row">
     <div class="container">
-     
+
      <?php //if (function_exists('bootstrapwp_breadcrumbs')) bootstrapwp_breadcrumbs(); ?>
    </div><!--/.container -->
  </div><!--/.row -->
  <div class="container">
 
-  
+
  <!-- Masthead
  ================================================== -->
  <header class="jumbotron subhead" id="overview">
@@ -41,8 +41,9 @@ get_header(); ?>
     </div><!--/.well .sidebar-nav -->
 
     <div class="span3 right">
-      <div id="scrollingDiv" class="well sidebar-nav">
-        bli
+      <div id="scrollingDiv" class="well sidebar-nav textlink">
+        <h4 class="widget-title">Lien</h4>
+        <a href="http://www.sft.fr/cgps-de-traduction-sft.html" class="external">CGPS recommandées par la SFT</a>
       </div>
     </div>
 

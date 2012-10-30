@@ -19,7 +19,7 @@ Overriding some defaults from the Bootstrap defaults to improve/fix integration 
 body {
  /*padding-top: 60px;*/
  word-spacing: -0.05em;
- background: url("./img/bg-pattern.png") repeat scroll 0 0 transparent;
+ background: url("./img/bgnoise.gif") repeat scroll 0 0 transparent;
 }
 
 /* Changing the navbar from 'fixed' to 'relative' to accomodate the WP-admin bar 
@@ -241,10 +241,17 @@ h4.widget-title {
 }
 
 .widget ul > li > a:hover {
+  color: black;
+}
+
+.widget ul > li > a.external:hover {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   background-color: #EA8915;
 }
+
+
+
 /* Post Styles
 ----------------------------------------------------------------------------------------*/
 sticky {
@@ -496,7 +503,7 @@ ol.comment-list li p.meta strong {
 }
 
 .external {
-  margin-left: 5px;
+ /* margin-left: 5px; */
 }
 
 .sidebar-nav{
@@ -509,7 +516,7 @@ ol.comment-list li p.meta strong {
 }  
 
 
-.hero-unit-page a{ 
+.hero-unit-page a, .textlink a{ 
   border-bottom: 1px dotted;
 }
 
