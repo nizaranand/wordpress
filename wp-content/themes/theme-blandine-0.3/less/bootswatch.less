@@ -24,32 +24,61 @@ a {
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
 h1, h2, h3, h4, h5, h6, .brand, blockquote > p, footer {
-	//font-family: 'Georgia', sans-serif;
 	font-family:"Radley", Arial, Helvetica, sans-serif;
 	color: @textColor;
+	margin-bottom: 24px;
+	font-weight: bold;
 }
 
 h1 {
-  font-family: "Radley", Arial, Helvetica, sans-serif;
-  text-transform:uppercase;
-  color: @orange;
-  font-size : 30px;
+	font-size: 1.7em; /* 24px --> 24 ÷ 16 = 1.5 */
+	line-height: 1em; /* 24px --> 24 ÷ 24 = 1 */
 }
 
 h2 {
-  font-size : 26px;
+	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
+	line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
 }
 
 h3 {
-  font-style : italic;
-  font-size : 23px;
+	font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
+	line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
+	font-style : italic;
 }
 
+h4 {
+	font-size: 1.125em; /* 18px --> 18 ÷ 16 = 1.125 */
+	line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
+}
+
+h5, h6 {
+	font-size: 1em; /* 16px --> 16 ÷ 16 = 1 */
+	line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
+}
+
+
+
+h1 {
+	font-family: "Radley", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	color: @orange;
+	/*font-size : 30px;*/
+}
+/*
+h2 {
+	font-size : 26px;
+}
+
+h3 {
+	font-style : italic;
+	font-size : 23px;
+}
+*/
 footer {
 	font-size : 14px;
 }
 
- .navbar, .subnav a, blockquote > p {
+.navbar, .subnav a, blockquote > p {
 	font-family:'Open Sans',sans-serif;
 	font-size : 14px;
 }
@@ -150,7 +179,7 @@ div.subnav .nav > .active > a:hover {
 // -----------------------------------------------------
 
 .btn-primary {
-  .buttonBackground(lighten(@linkColor, 5%), @linkColor);
+	.buttonBackground(lighten(@linkColor, 5%), @linkColor);
 }
 
 
