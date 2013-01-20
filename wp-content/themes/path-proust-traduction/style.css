@@ -1,0 +1,25 @@
+/*
+Theme Name: Path Child
+Description: Thème enfant pour Path
+Author: Anthony Colas
+Template: path
+*/
+
+@import url("../path/style.css");
+
+body {
+    border-bottom: 5px solid #EA8916;
+    border-top: 5px solid #EA8916;
+}
+
+a, a:visited {
+    color: #EA8916;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer .copyright, #footer .credit {
+	color: white;
+}

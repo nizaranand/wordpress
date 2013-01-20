@@ -1,0 +1,37 @@
+23.10.2012 - version 0.1.4
+
+* Updated Hybrid Core to version 1.4.3.
+
+* Most viewed widget added.
+
+* Customize support for 1 column layout.
+
+* Gravity Form CSS HTML5 input types added.
+
+* Blockquote height: 100% removed. It was for IE7 and I have dropped suport for that.
+
+5.9.2012 - version 0.1.3
+
+* Oh what a rookie mistake. .gitmodules file removed.
+
+2.9.2012 - version 0.1.2
+
+* Hybrid Core updated to 1.4.2.
+
+* Added Polish translations.
+
+* Slider image padding taken off from left and right.
+
+* Dequeue Pullquote Shortcode plugin styles and add them in style.css.
+
+31.7.2012 - version 0.1.1
+
+* Better code in theme customize and settings page when choosing global layout.
+
+* Arrows fixed back to normal. They were replaced by ?-mark when compressing style.css. 
+
+* @link: http://stackoverflow.com/questions/2701192/ascii-character-for-up-down-triangle-arrow-to-display-in-html
+
+18.6.2012 - version 0.1
+
+* Everything is brand new.
