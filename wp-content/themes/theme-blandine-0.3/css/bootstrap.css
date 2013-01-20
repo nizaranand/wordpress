@@ -6486,6 +6486,8 @@ h6,
   -webkit-box-shadow: 0 2px 2px rgba(234, 137, 21, 0.85), inset 0 -1px 0 rgba(234, 137, 21, 0.5);
   -moz-box-shadow: 0 2px 2px rgba(234, 137, 21, 0.85), inset 0 -1px 0 rgba(234, 137, 21, 0.5);
   box-shadow: 0 2px 2px rgba(234, 137, 21, 0.85), inset 0 -1px 0 rgba(234, 137, 21, 0.5);
+  background-image: -moz-linear-gradient(to bottom, #fcfbfd, #dedede);
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#fcfbfd), to(#dedede));
 }
 .navbar-inner,
 .navbar .dropdown-menu,

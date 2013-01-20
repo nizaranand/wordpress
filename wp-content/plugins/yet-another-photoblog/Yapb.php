@@ -2,7 +2,7 @@
 
 	/*	Plugin Name: Yet Another PhotoBlog
 		Plugin URI: http://johannes.jarolim.com/yapb
-		Version: 1.10.9
+		Version: 1.10.10
 		Description: Convert your WordPress Blog into a full featured photoblog in virtually no time. More informations may be found on the <a href="http://johannes.jarolim.com/yapb">plugin pages</a>.
 		Author: J.P.Jarolim
 		Author URI: http://johannes.jarolim.com

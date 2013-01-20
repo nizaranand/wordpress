@@ -3,8 +3,8 @@ Contributors: ppfeufer
 Donate link:
 Tags: twitter, widget, social network, sidebar
 Requires at least: 3.1
-Tested up to: 3.5-beta1
-Stable tag: 1.5.1
+Tested up to: 3.5
+Stable tag: 1.6
 
 Add a widget to your sidebar to show your latest tweets.
 
@@ -47,6 +47,9 @@ You can use the built in installer and upgrader, or you can install the plugin m
 1. TweetView in action
 
 == Changelog ==
+= 1.6 =
+* (02.01.2013)
+* Ready for WordPress 3.5
 
 = 1.5.1 =
 * (14.10.2012)

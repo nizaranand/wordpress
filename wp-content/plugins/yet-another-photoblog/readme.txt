@@ -5,7 +5,7 @@ Donate link: http://johannes.jarolim.com/yapb/donate
 Tags: photoblog, photo blog, photo blogging, images, yapb, yet another photoblog
 Requires at least: 2.5
 Tested up to: 3.4.2
-Stable tag: 1.10.9
+Stable tag: 1.10.10
 
 Convert your WordPress Blog into a full featured photoblog in virtually no time.
 
@@ -110,6 +110,11 @@ Have a look at the [YAPB FAQ Page](http://johannes.jarolim.com/yapb "The plugins
 
 
 == Changelog ==
+
+= 2013-01-17, Release 1.10.10 =
+
+* Bugfix: Broken RSS Feed-Output in WP 3.5 fixed (Thanks to Jan for the report)
+
 
 = 2012-10-11, Release 1.10.9 =
 

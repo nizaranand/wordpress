@@ -820,7 +820,11 @@
 			
 			if ($post && property_exists($post, 'image')) {
 			
+				$embed = '<!-- no embed -->';
+				
+				
 				// Was this hook called out of a feed generation?
+				
 				if (is_feed()) {
 
 					// Does the user want to display images in feeds?
@@ -885,7 +889,7 @@
 						// Directly print out the image tag into 
 						// the feed
 
-						print $embed;
+						# print $embed;
 						
 					}
 					
@@ -894,8 +898,10 @@
 				// If automatic image insertion is activated in general
 
 				if (get_option('yapb_display_images_activate')) {
-					print $this->_getImageTag($post->image);
+					$embed = $this->_getImageTag($post->image);
 				}
+				
+				return $embed . $result;
 				
 			} 
 			
