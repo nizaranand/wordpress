@@ -1,1 +1,0 @@
-Place additional scripts in this directory.

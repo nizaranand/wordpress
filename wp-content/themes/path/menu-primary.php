@@ -32,9 +32,15 @@
 			<?php do_atomic( 'open_menu_primary' ); // path_open_menu_primary ?>	
 					
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu', 'menu_class' => '', 'menu_id' => 'menu-primary-items', 'fallback_cb' => '' ) ); ?>
-				
+			
 			<?php do_atomic( 'close_menu_primary' ); // path_close_menu_primary ?>
 				
+            <select id="select-language">
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="en">English</option>
+              </select>
+              	
 			<?php if ( !is_admin_bar_showing() ) get_search_form(); // Loads the searchform.php template. ?>
 						
 		</div><!-- .wrap -->

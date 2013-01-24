@@ -28,6 +28,13 @@ function path_child_theme_setup() {
 
 }
 
+function add_my_scripts(){
+wp_register_script('application', get_bloginfo('stylesheet_directory').'/js/application.js', array('jquery'),'1.0');
+wp_enqueue_script('application');
+}
+add_action('init', 'add_my_scripts');
+
+
 function bootstrap() {
 	echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/js/bootstrap.js"></script>';
  	echo '<link href="'.get_stylesheet_directory_uri().'/css/bootstrap.css" rel="stylesheet" type="text/css">';
@@ -36,5 +43,3 @@ function bootstrap() {
 add_action('wp_head', 'bootstrap');
 
 ?>
-
-
