@@ -20,6 +20,21 @@ img {
 	border: none;
 }
 
+.change-language{
+  float: right;
+}
+
+#sidebar-primary ul {
+  list-style-type: none;
+}
+
+/* surcharge largeur fixe sous contenu*/
+#sidebar-subsidiary .widget {
+  width: auto;
+  float: none;
+  text-align: center;
+}
+
 #footer {
   background-color: black;
   color: white;

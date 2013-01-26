@@ -1,14 +1,14 @@
 <?php
 /**
- * Index Template
+ * Template Name: Default Template Path Child
  *
- * This is the default template.  It is used when a more specific template can't be found to display
- * posts. It is unlikely that this template will ever be used, but there may be rare cases.
+ * Displays blog archives.
  *
- * @package Path
+ * @package PathChild
  * @subpackage Template
  * @since 0.1.0
  */
+
 
 get_header(); // Loads the header.php template. ?>
 
@@ -27,6 +27,7 @@ get_header(); // Loads the header.php template. ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', ( post_type_supports( get_post_type(), 'post-formats' ) ? get_post_format() : get_post_type() ) ); ?>
+
 
 					<?php if ( is_singular() ) { ?>
 					

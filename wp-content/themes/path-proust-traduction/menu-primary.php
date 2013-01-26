@@ -4,7 +4,7 @@
  *
  * Displays the Primary Menu if it has active menu items.
  *
- * @package Path
+ * @package PathChild
  * @subpackage Template
  * @since 0.1.0
  */
@@ -37,6 +37,13 @@
 				
             <?php if ( !is_admin_bar_showing() ) get_search_form(); // Loads the searchform.php template. ?>
 			
+			<div class="change-language">
+            	<select id="select-language">
+	                <option value="fr">Français</option>
+	                <option value="de">Deutsch</option>
+	                <option value="en">English</option>
+             	</select>	
+            </div>		
 		</div><!-- .wrap -->
 
 	</nav><!-- #menu-primary .menu-container -->
